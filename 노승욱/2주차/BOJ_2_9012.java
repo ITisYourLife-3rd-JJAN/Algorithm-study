@@ -1,4 +1,4 @@
-package 노승욱_2주차;
+
 import java.util.Scanner;
 
 public class BOJ_2_9012 {

@@ -1,4 +1,4 @@
-package 노승욱_2주차;
+
 import java.util.LinkedList;
 import java.util.Scanner;
 
