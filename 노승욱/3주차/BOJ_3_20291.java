@@ -18,7 +18,7 @@ public class BOJ_3_20291 {
 		
 		for(int i=0; i<N; i++) {
 			String name = bf.readLine();
-			String file = name.substring(name.indexOf(".")+1); // 확장자의 자리 수가 가변적이기 때문에.. "."의 인덱스 뒷자리부터 끝까지 출력
+			String file = name.substring(name.indexOf(".")+1); 
 			 map.put(file, map.getOrDefault(file, 0)+1);
 		}
 		
