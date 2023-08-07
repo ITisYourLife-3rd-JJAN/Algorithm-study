@@ -24,7 +24,7 @@ public class Main {
 			score[2] = step[1]+step[2];
 			score[3] = Math.max(step[1], step[2])+step[3];
 					
-			for(int i=4;i<=N;i++) {
+			for(int i=4;i<=N;i++) { //제일 마지막 계단을 무조건 밟아야한다. -> 포도주 문제와의 차이점
 				score[i] = Math.max(score[i-3]+step[i-1], score[i-2])+step[i];
 			}
 		}
