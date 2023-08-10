@@ -5,7 +5,7 @@ for i in range(T):
     braket = input()
     for b in braket:
         if b == '(':
-            stack.append(j)
+            stack.append(b)
         elif b == ')':
             if stack:
                 stack.pop()
