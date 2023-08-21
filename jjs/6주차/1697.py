@@ -17,6 +17,6 @@ def bfs():
         for i in (x - 1, x + 1, x * 2): # i = 4, 6, 10
             if 0 <= i <= max and not arr[i]: # arr[i]는 0 즉 false
                 arr[i] = arr[x] + 1 # arr[4, 6, 10] = arr[5] + 1 즉 1
-                q.append(i) # q = deque([4, 6, "10"])
+                q.append(i) # q = deque([4, 6, "10"]) => arr[9, 11, 20] 반복 해서 arr[17, 19, 36] = arr[18] + 1 = 3 + 1 = 4
 
 bfs()
