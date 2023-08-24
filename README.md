@@ -25,10 +25,10 @@
     <td align="center"><a href="https://github.com/gilyeon00"><img src="https://avatars.githubusercontent.com/gilyeon00" width="130px;" alt=""></a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/mukhoplus"><b>전지수</b></a></td>
-    <td align="center"><a href="https://github.com/skybluelion"><b>노승욱</b></a></td>
+    <td align="center"><a href="https://github.com/zyyyyyysoo"><b>전지수</b></a></td>
+    <td align="center"><a href="https://github.com/SeungukNoh"><b>노승욱</b></a></td>
     <td align="center"><a href="https://github.com/richsubin"><b>안수빈</b></a></td>
-    <td align="center"><a href="https://github.com/Leebeom-seok"><b>정길연</b></a></td>
+    <td align="center"><a href="https://github.com/gilyeon00"><b>정길연</b></a></td>
   </tr>
   
   <tr> 
