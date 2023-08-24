@@ -101,4 +101,4 @@
 - [알고리즘 및 코딩 테스트 문제 풀이 챌린지 100](https://github.com/ellynhan/challenge100-codingtest-study)
 - [알고리즘 및 코딩 테스트 문제 풀이](https://github.com/Seongho0503/Algo_Study)
 - [코딩테스트 기출 문제 풀이 및 업로드 Repository](https://github.com/CodeTest-StudyGroup/Code-Test-Study)
-- [Algorithm Study](https://github.com/b1urrrr/Algorithm-Study)
+- [Algorithm Study](https://github.com/tldjfj123/Algorithm_Study)
