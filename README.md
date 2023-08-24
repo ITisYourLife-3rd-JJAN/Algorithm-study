@@ -4,7 +4,7 @@
 
 <table>
     <td>플랫폼</td>
-    <td>백준, 프로그래머스</td>
+    <td>백준</td>
   </tr>
   <tr>
     <td>언어</td>
