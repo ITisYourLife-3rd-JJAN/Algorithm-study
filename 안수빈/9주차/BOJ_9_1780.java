@@ -41,11 +41,23 @@ public class Main {
 		
 		int cutSize = size/3;
 		
-		for(int i=row;i<row+size;i+=cutSize) {
-			for(int j=col;j<col+size;j+=cutSize) {
-				countPaper(i, j, cutSize);
-			}
-		}
+		// for(int i=row;i<row+size;i+=cutSize) {
+		// 	for(int j=col;j<col+size;j+=cutSize) {
+		// 		countPaper(i, j, cutSize);
+		// 	}
+		// }
+
+		countPaper(row, col, cutSize);
+		countPaper(row, col + cutSize, cutSize);
+		countPaper(row, col + cutSize * 2, cutSize);
+
+		countPaper(row + cutSize, col, cutSize);
+		countPaper(row + cutSize, col + cutSize, cutSize);
+		countPaper(row + cutSize, col + cutSize * 2, cutSize);
+
+		countPaper(row + cutSize * 2, col, cutSize);
+		countPaper(row + cutSize * 2, col  + cutSize, cutSize);
+		countPaper(row  + cutSize * 2, col  + cutSize * 2, cutSize);
 	}
 	
 	public static boolean checkPaper(int row, int col, int cutSize) {
